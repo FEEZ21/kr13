@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+body {
+    background: linear-gradient(90deg, transparent 50%, #F8F8FA 50%);
+}
+
+.header {
+    padding: 27px 0 112px 0;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.full-registration {
+    width: 50%;
+}
+
+svg {
+    width: 262px;
+    height: 55px;
+}
+
+.description {
+    margin-bottom: 42px;
+    width: 496px;
+    height: 81px;
+    font-size: 22px;
+    color: #636363;
+}
+
+.registration-inf h1 {
+    margin-bottom: 7px;
+    width: 496px;
+    height: 56px;
+    font-size: 36px;
+    font-family: NunitoBold;
+}
+
+.registration ul {
+    list-style: none;
+    width: 452px;
+}
+
+.registration ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+input {
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #C6C6C4;
+    width: 452px;
+    font-size: 20px;
+}
+
+.checkbox {
+    color: #636363;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.description-reg {
+    color: #C6C6C4;
+    font-size: 16px;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 44px;
+}
+
+.submitContainer button {
+    display: flex;
+    width: 210px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #DD3142;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ready {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.images {
+    background-color: #F8F8FA;
+    margin-left: 52px;
+    width: 50%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background: #000000c9;
+    z-index: 9999;
+
+}
+
+.popup {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popup button {
+    display: flex;
+    width: 110px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #DD3142;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
